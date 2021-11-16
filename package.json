@@ -14,7 +14,7 @@
   ],
   "author": "qianphong",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@antfu/eslint-config": "^0.10.0"
   }
 }
