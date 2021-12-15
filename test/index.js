@@ -17,5 +17,12 @@ const foo = function () {
   return 'name'
 }
 
+// 'operator-linebreak'
+const state =
+  str.length > 10
+    ? str
+    : `${str}3444444444444444444444444444433` +
+      '333333333333333333333333333333333333'
+
 // 'no-console': 'off',
-console.log(foo)
+console.log(foo, state)

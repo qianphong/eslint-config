@@ -6,6 +6,11 @@ module.exports = {
     'brace-style': ['error', '1tbs'],
     'arrow-parens': ['error', 'as-needed'],
     'space-before-function-paren': ['error', { named: 'never' }],
+    'operator-linebreak': [
+      'error',
+      'after',
+      { overrides: { '?': 'before', ':': 'before' } },
+    ],
     // vue
     'vue/html-self-closing': [
       'warn',
