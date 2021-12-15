@@ -4,8 +4,9 @@ module.exports = {
     // common
     'no-console': 'off',
     'brace-style': ['error', '1tbs'],
+    'arrow-parens': ['error', 'as-needed'],
     'space-before-function-paren': ['error', { named: 'never' }],
-    //vue
+    // vue
     'vue/html-self-closing': [
       'warn',
       { html: { normal: 'never', void: 'always' } },
