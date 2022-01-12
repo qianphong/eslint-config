@@ -11,6 +11,8 @@ module.exports = {
       'after',
       { overrides: { '?': 'before', ':': 'before' } },
     ],
+    // typescript
+    '@typescript-eslint/indent': ['error', 3],
     // vue
     'vue/html-self-closing': [
       'warn',
