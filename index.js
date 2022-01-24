@@ -12,7 +12,7 @@ module.exports = {
       { overrides: { '?': 'before', ':': 'before' } },
     ],
     // typescript
-    '@typescript-eslint/indent': ['error', 3],
+    // '@typescript-eslint/indent': ['error', 2],
     // vue
     'vue/html-self-closing': [
       'warn',
