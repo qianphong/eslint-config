@@ -12,6 +12,7 @@ module.exports = {
       { overrides: { '?': 'before', ':': 'before' } },
     ],
     // typescript
+    '@typescript-eslint/brace-style': ['error', '1tbs'],
     // '@typescript-eslint/indent': ['error', 2],
     // vue
     'vue/html-self-closing': [
