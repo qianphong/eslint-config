@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     // common
     'no-console': 'off',
+    'indent': 'off',
     'brace-style': ['error', '1tbs'],
     'arrow-parens': ['error', 'as-needed'],
     'space-before-function-paren': ['error', { named: 'never' }],
@@ -13,7 +14,7 @@ module.exports = {
     ],
     // typescript
     '@typescript-eslint/brace-style': ['error', '1tbs'],
-    // '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/indent': 'off',
     // vue
     'vue/html-self-closing': [
       'warn',
