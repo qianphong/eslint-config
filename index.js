@@ -21,5 +21,8 @@ module.exports = {
       { html: { normal: 'never', void: 'always' } },
     ],
     'vue/singleline-html-element-content-newline': 'off',
+
+    // antfu
+    'antfu/if-newline': 'off',
   },
 }
