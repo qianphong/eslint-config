@@ -1,4 +1,5 @@
 <script lang="ts" setup></script>
+
 <template>
   <div>
     <!-- 'vue/html-self-closing' -->

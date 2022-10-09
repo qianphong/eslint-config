@@ -17,8 +17,8 @@ module.exports = {
     '@typescript-eslint/indent': 'off',
     // vue
     'vue/html-self-closing': [
-      'warn',
-      { html: { normal: 'never', void: 'always' } },
+      'error',
+      { html: { void: 'any', normal: 'always', component: 'always' } },
     ],
     'vue/singleline-html-element-content-newline': 'off',
 
